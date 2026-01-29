@@ -15,5 +15,27 @@ Un jeu de Tic-Tac-Toe complet avec deux interfaces graphiques différentes.
 1. Clonez ou téléchargez ce projet
 2. Installez les dépendances (pour la version Pygame) :
 
-```bash
+on tape sur bash la commande :
+
 pip install -r requirements.txt
+
+
+
+Comment jouer :
+Version Tkinter :
+sur bash on tape la commande :
+python tkinter_version.py
+Version Pygame :
+python pygame_version.py
+
+
+Règles du jeu
+Le jeu se joue sur une grille 3x3
+
+Deux joueurs : X (en turquoise) et O (en rouge)
+
+Les joueurs placent à tour de rôle leur symbole dans une case vide
+
+Le premier à aligner 3 symboles (horizontalement, verticalement ou en diagonale) gagne
+
+Si toutes les cases sont remplies sans gagnant, c'est un match nul
