@@ -25,6 +25,8 @@ Comment jouer :
 Version Tkinter :
 sur bash on tape la commande :
 python tkinter_version.py
+
+
 Version Pygame :
 python pygame_version.py
 
@@ -39,3 +41,4 @@ Les joueurs placent à tour de rôle leur symbole dans une case vide
 Le premier à aligner 3 symboles (horizontalement, verticalement ou en diagonale) gagne
 
 Si toutes les cases sont remplies sans gagnant, c'est un match nul
+
