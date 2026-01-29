@@ -17,7 +17,7 @@ Un jeu de Tic-Tac-Toe complet avec deux interfaces graphiques différentes.
 
 on tape sur bash la commande :
 
-pip install -r requirements.txt
+python -m pip install pygame
 
 
 
@@ -41,4 +41,5 @@ Les joueurs placent à tour de rôle leur symbole dans une case vide
 Le premier à aligner 3 symboles (horizontalement, verticalement ou en diagonale) gagne
 
 Si toutes les cases sont remplies sans gagnant, c'est un match nul
+
 
